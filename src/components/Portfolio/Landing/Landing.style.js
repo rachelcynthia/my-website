@@ -1,9 +1,16 @@
 import styled from "styled-components";
-import background from '../../../assets/background.avif'
 
 export const Home = styled.div`
-    background-color: #fffce8;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // background-image: url(${background});
+    background-color: transparent;
+    height: ${props => props.height}px;
+    width: ${props => props.width}px;
+`;
+
+export const Container = styled.div`
+    display: flex;
+    flex-direction: row;
+    width: ${props => props.width}px;
+    padding-top: ${props => props.paddingTop}px;
+    justify-content: center;
+    align-items: center;
 `;
