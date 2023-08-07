@@ -15,6 +15,7 @@ import javaLogo from '../../../assets/java.png';
 import gitLogo from '../../../assets/git.png';
 
 const Skills = () => {
+    const { innerHeight: height, innerWidth: width } = window;
 
     const itemData = [
         { src: htmlLogo, text: "HTML" },
@@ -34,7 +35,7 @@ const Skills = () => {
     return (
         <SkillsContainer id="skills">
             <SkillsHeadingText />
-            <SkillsContent id="SkillsContent">
+            <SkillsContent id="SkillsContent" width={width}>
                 {itemData.map((item) => {
                     return (
                         <ItemListContainer>

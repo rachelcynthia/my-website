@@ -7,7 +7,7 @@ const NameText = () => {
     const { innerHeight: height, innerWidth: width } = window;
 
     return (
-        <NameContainer imgHeight={0.5 * height} >
+        <NameContainer imgWidth={0.35 * width}>
             <HeadingImage src={LandingText} />
             <SocialLinks />
         </NameContainer>

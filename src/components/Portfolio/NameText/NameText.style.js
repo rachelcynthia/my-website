@@ -11,5 +11,5 @@ export const NameContainer = styled.div`
     flex-direction: column;
     align-items: center;
     padding-right: 5px;
-    height: ${props => props.imgHeight}px;
+    width: ${props => props.imgWidth}px;
 `;

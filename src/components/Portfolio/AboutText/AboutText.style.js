@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const AboutTextContainer = styled.div`
@@ -15,7 +15,7 @@ export const IntroText = styled.div`
 
 export const IntroTextContainer = styled.li`
     margin-bottom: 20px;
-    width: 70%;
+    // width: 70%;
 `;
 
 export const ResumeIconContainer = styled.div`

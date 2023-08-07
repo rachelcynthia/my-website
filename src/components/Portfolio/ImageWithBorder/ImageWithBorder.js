@@ -6,7 +6,7 @@ const ImageWithBorder = () => {
     const { innerHeight: height, innerWidth: width } = window;
 
     return (
-        <ImageContainer imgHeight={0.7 * height} >
+        <ImageContainer imgWidth={0.35 * width} >
             <Image src={profileImage} />
         </ImageContainer>
     );

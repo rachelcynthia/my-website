@@ -18,7 +18,7 @@ const AboutHeading = () => {
         }
     }, [clicked])
     return (
-        <AboutHeaddingContainer imgHeight={0.3 * height}>
+        <AboutHeaddingContainer imgWidth={0.2 * width}>
             {isAnimateStart ?
                 <MovingComponent
                     type="fadeInFromTop"
