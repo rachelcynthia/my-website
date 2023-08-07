@@ -14,7 +14,7 @@ const Education = () => {
                     <Image src={college} />
                     <EducationTextContainer>
                         <EducationHeading>
-                            St. Joseph's Institute Of Technology, Chennai — Bachelors of Engineering in  Computer Science
+                            St. Joseph's Institute Of Technology, Chennai — <i><div style={{fontWeight: 100}}>Bachelors of Engineering in  Computer Science</div></i>
                         </EducationHeading>
                         <EducationSubHeading>
                             JUNE 2017 - APRIL 2021
@@ -28,7 +28,7 @@ const Education = () => {
                             Lalaji Memorial Omega International School, Chennai 
                         </EducationHeading>
                         <EducationSubHeading>
-                            2015 - 2017
+                            JUNE 2015 - APRIL 2017
                         </EducationSubHeading>
                     </EducationTextContainer>
                 </PaperContent>

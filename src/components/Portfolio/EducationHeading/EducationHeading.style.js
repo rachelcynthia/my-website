@@ -1,17 +1,16 @@
 import styled from "styled-components";
 
 export const EducationHeaddingContainer = styled.div`
-    padding: 80px 20px 20px 20px;
+    width: ${props => props.imgWidth}px;
 `;
 
-export const EducationHeadingText = styled.div`
-    font-family: Georgia, serif;
-    font-weight: bold;
-    font-size: 32px;
-    white-space: pre-wrap;
-    color: #1c4a01;
-    text-align: center;
-    background-color: #fffce8;
-    margin-top: ${props => props.marginTop}px;
-    margin-bottom: ${props => props.marginTop}px;
+export const EducationHeadingWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+`;
+
+export const EducationHeadingImage = styled.img`
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 `;
