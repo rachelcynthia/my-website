@@ -26,7 +26,7 @@ export const ItemListContainer = styled.div`
     margin-right: 20px;
     margin-bottom: 20px;
     align-items: center;
-    background-color: black;
+    background-color: #222222;
     color: white;
     justify-content: center;
     border-radius: 40px;

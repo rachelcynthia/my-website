@@ -14,24 +14,20 @@ import Blog4 from '../../../assets/blog4.png';
 const Blogs = () => {
     const blogs = [
         {
-            name: 'Thoughtworks, India',
+            name: 'Connecting react frontend to spring boot backend with nginx rate limiting',
             img: Blog1,
-            desc: 'DEC 2021 - PRESENT'
         },
         {
-            name: 'Thoughtworks, India',
-            role: Blog2,
-            desc: 'SEP 2021 - DEC 2021'
+            name: 'Circuit Breakers ',
+            img: Blog2,
         },
         {
-            name: 'Kaar Technologies, Chennai',
-            role: Blog3,
-            desc: 'MAR 2021 - AUG 2021'
+            name: 'Implementing Count Based Circuit Breaker in Java ',
+            img: Blog3,
         },
         {
-            name: 'Kaar Technologies, Chennai',
-            role: Blog4,
-            desc: 'MAR 2021 - AUG 2021'
+            name: 'Implementing Time Based Circuit Breaker In Java',
+            img: Blog4,
         }
 
     ]
@@ -43,12 +39,11 @@ const Blogs = () => {
             <BlogsContent id="BlogsContent" >
                 <ImageList>
                     {blogs.map((item) => (
-                        <ImageListItem key={item.img}>
+                        <ImageListItem key={item.img} style={{borderColor: "black", borderWidth: 10}}>
                             <img
                             src={item.img} />
                             <ImageListItemBar
                                 title={item.name}
-                                subtitle={item.desc}
                                 actionIcon={
                                     <IconButton
                                         sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
