@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ImageContainer = styled.div`
-    width: ${props => props.imgWidth}px;
     height: ${props => props.imgHeight}px;
     text-align: center;
 `;

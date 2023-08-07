@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
-export const HeadingText = styled.div`
-    font: italic small-caps bold 32px/2 cursive;
-`;
-export const SubheadingText = styled.div`
-    font-family: corbel;
-    font-size: 24px;
+export const HeadingImage = styled.img`
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 `;
 
 export const NameContainer = styled.div`
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-right: 5px;
+    height: ${props => props.imgHeight}px;
 `;

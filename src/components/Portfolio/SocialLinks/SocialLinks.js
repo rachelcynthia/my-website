@@ -1,6 +1,6 @@
 import React from "react";
 import { SocialLinksContainer, SocialLinksEle, SocialLinksEleContainer } from './SocialLinks.style';
-import gitIcon from '../../../assets/git.png';
+import gitIcon from '../../../assets/git-logo.svg';
 import medium from '../../../assets/medium.png';
 import linkedin from '../../../assets/linkedin.png';
 
@@ -17,10 +17,11 @@ const SocialLinks = () => {
             {links.map((link) => {
                 return (
                     <SocialLinksEleContainer>
-                        <SocialLinksEle src={link.icon} height={0.05 * height} />
+                        <SocialLinksEle src={link.icon} height={0.045 * height} />
                     </SocialLinksEleContainer>
                 );
             })}
+
         </SocialLinksContainer>
     );
 }

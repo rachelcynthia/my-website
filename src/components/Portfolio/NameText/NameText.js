@@ -1,14 +1,14 @@
 import React from "react";
-import { HeadingText, SubheadingText, NameContainer } from './NameText.style';
+import { HeadingImage, NameContainer } from './NameText.style';
 import SocialLinks from "../SocialLinks/SocialLinks";
+import LandingText from '../../../assets/landing-text.png'
 
 const NameText = () => {
-    const { innerHeight: height } = window;
+    const { innerHeight: height, innerWidth: width } = window;
 
     return (
-        <NameContainer>
-            <HeadingText>I'm Rachel Cynthia</HeadingText>
-            <SubheadingText>A Developer</SubheadingText>
+        <NameContainer imgHeight={0.5 * height} >
+            <HeadingImage src={LandingText} />
             <SocialLinks />
         </NameContainer>
     );
