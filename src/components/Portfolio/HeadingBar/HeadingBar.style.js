@@ -25,3 +25,5 @@ export const HeadingElement = styled.a`
         text-decoration: none;
     }
 `;
+
+export const HeadingWrapper = styled.div``;

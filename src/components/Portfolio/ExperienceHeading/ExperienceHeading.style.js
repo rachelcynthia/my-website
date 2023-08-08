@@ -7,6 +7,7 @@ export const ExperienceHeaddingContainer = styled.div`
 export const ExperienceHeadingWrapper = styled.div`
     display: flex;
     justify-content: center;
+    margin-top: 40px;
 `;
 
 export const ExperienceHeadingImage = styled.img`

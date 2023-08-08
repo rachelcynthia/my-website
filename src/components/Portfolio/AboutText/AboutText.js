@@ -1,24 +1,24 @@
 import React, { useContext, useEffect, useState } from "react";
 import { AboutTextContainer, IntroText, IntroTextContainer, ResumeButton, HorizontalLine, ResumeButtonContainer, ResumeIcon, ResumeIconContainer, ResumeAnotherButtonContainer } from './AboutText.style';
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
-import { MovingComponent } from 'react-moving-text';
-import NavigationContext from "../../../Provider/NavigationContext";
 
 const AboutText = () => {
-    const intro1 = "I am an application developer with nearly 2 years experience in working on a software development lifecycle (SDLC) "
-        + "including analysis, design, development, and testing, deployment and documentation."
-    const intro2 = "I have worked in an agile environment, followed TDD (Test Driven Development) and pair programming when developing a mobile app and creating multiple microservices"
-    const intro3 = "I am very passionate about coding and I find learning new things interesting, this helps me expand my knowledge base continuosuly which has led me to be highly skilled in multiple frameworks and libraries"
-    const intros = [intro1, intro2, intro3]
+    const intro1 = `I am an application developer with nearly 2 years experience in working on a <b>software development lifecycle (SDLC)</b>`
+    const intro4 = "I have worked on <b>analysis, design, development</b> and <b>testing, deployment and documentation</b> in software development"
+    const intro2 = "I have worked in an agile environment, followed <b>TDD and pair programming</b> when developing a <b>mobile app</b> and creating multiple <b>microservices</b>"
+    const intros = [intro1, intro4, intro2]
     const { innerWidth: width, innerHeight: height } = window;
+
+    const setInnerHTML = (intro) => {
+        return intro;
+    }
 
     return (
         <AboutTextContainer width={width}>
             <ul>
-            {intros.map((intro, index) => {
+                {intros.map((intro, index) => {
                     return (
                         <IntroTextContainer>
-                            <IntroText>{intro}</IntroText>
+                            <IntroText dangerouslySetInnerHTML={{ __html: intro }} />
                         </IntroTextContainer>
                     );
 

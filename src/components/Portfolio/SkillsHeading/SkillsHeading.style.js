@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const SkillsHeaddingContainer = styled.div`
     height: ${props => props.imgHeight}px;
     text-align: center;
+    margin-bottom: 30px;
 `;
 
 export const SkillsHeadingImage = styled.img`

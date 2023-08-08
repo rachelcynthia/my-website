@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Paper from '@mui/material/Paper';
 
 
 export const SkillsContainer = styled.div`
@@ -11,7 +10,16 @@ export const SkillsContainer = styled.div`
 export const SkillsContent = styled.div`
     width: 100%;
     height: 100%;
-    padding: 3% 5%;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+`;
+
+export const SkillsContentContainer = styled.div`
+    width: 100%;
+    height: 100%;
     vertical-align: middle;
     display: flex;
     flex-direction: row;
@@ -33,8 +41,16 @@ export const ItemListContainer = styled.div`
 `;
 
 export const ItemText = styled.div`
-    // margin-left: 10%;
     margin-top: 5%;
-    // margin-bottom: 5%;
     vertical-align: middle;
+`;
+
+export const SkillsImage = styled.img`
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+`;
+
+export const ImageContainer = styled.div`
+    width: ${props => 0.02 * props.width}px;
 `;

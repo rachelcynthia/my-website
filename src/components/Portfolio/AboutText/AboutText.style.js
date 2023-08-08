@@ -7,14 +7,17 @@ export const AboutTextContainer = styled.div`
 `;
 
 export const IntroText = styled.div`
-    font-family: Georgia, serif;
-    font-size: 20px;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'REM', sans-serif;
     white-space: pre-wrap;
-    color: black;
+    color: #222222;
+    font-size: 20px;
+    font-weight: 300;
 `;
 
 export const IntroTextContainer = styled.li`
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     // width: 70%;
 `;
 
