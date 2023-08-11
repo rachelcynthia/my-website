@@ -5,7 +5,7 @@ import medium from '../../../assets/medium.png';
 import linkedin from '../../../assets/linkedin.png';
 
 const SocialLinks = () => {
-    const { innerWidth: width, innerHeight: height } = window;
+    const { innerHeight: height } = window;
     const links = [
         { icon: gitIcon, link: 'https://github.com/rachelcynthia' },
         { icon: medium, link: 'https://medium.com/@rachel883omega' },

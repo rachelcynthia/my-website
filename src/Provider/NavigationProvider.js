@@ -8,7 +8,7 @@ const NavigationProvider = ({ children }) => {
     const onClickNavBar = (clickedEle) => {
         setClicked('');
         setClicked(clickedEle);
-        if(clickedEle.toLowerCase() == 'resume'){
+        if(clickedEle.toLowerCase() === 'resume'){
             window.open(Resume)
         }
     }

@@ -3,7 +3,7 @@ import { AboutHeaddingContainer, AboutHeadingImage } from './AboutHeading.style'
 import AboutHeadingImg from '../../../assets/about-heading.png';
 
 const AboutHeading = () => {
-    const { innerWidth: width, innerHeight: height } = window;
+    const { innerWidth: width } = window;
 
     return (
         <AboutHeaddingContainer imgWidth={0.2 * width}>

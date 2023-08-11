@@ -4,7 +4,7 @@ import SocialLinks from "../SocialLinks/SocialLinks";
 import LandingText from '../../../assets/landing-text.png'
 
 const NameText = () => {
-    const { innerHeight: height, innerWidth: width } = window;
+    const { innerWidth: width } = window;
 
     return (
         <NameContainer imgWidth={0.35 * width}>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Home, Container } from './Landing.style';
 import ImageWithBorder from "../ImageWithBorder/ImageWithBorder";
 import NameText from "../NameText/NameText";

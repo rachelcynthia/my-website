@@ -4,7 +4,7 @@ import ContactHeadingImg from '../../../assets/contact-heading.png'
 
 
 const ContactHeading = () => {
-    const { innerWidth: width, innerHeight: height } = window;
+    const { innerWidth: width } = window;
 
     return (
         <ContactHeadingWrapper>

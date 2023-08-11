@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
-import { Heading, HeadingElement, HeadingContainer, HeadingWrapper } from './HeadingBar.style';
+import { Heading, HeadingElement, HeadingWrapper } from './HeadingBar.style';
 import NavigationContext from "../../../Provider/NavigationContext";
 
 const HeadingBar = () => {
-    const { innerWidth: width, innerHeight: height } = window;
+    const { innerWidth: width } = window;
     const { onClickNavBar } = useContext(NavigationContext);
 
 

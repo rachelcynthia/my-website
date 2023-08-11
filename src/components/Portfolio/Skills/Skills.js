@@ -1,7 +1,6 @@
 import React from "react";
 import { SkillsContainer, SkillsContent, ItemListContainer, ItemText, SkillsContentContainer, SkillsImage, ImageContainer } from './Skills.style';
 import { default as SkillsHeadingText } from '../../Portfolio/SkillsHeading/SkillsHeading.js';
-import Avatar from '@mui/material/Avatar';
 import htmlLogo from '../../../assets/html.webp';
 import cssLogo from '../../../assets/css.webp';
 import jsLogo from '../../../assets/js.png';
@@ -15,7 +14,7 @@ import javaLogo from '../../../assets/java.png';
 import gitLogo from '../../../assets/git.png';
 
 const Skills = () => {
-    const { innerHeight: height, innerWidth: width } = window;
+    const { innerWidth: width } = window;
 
     const itemData = [
         [{ src: htmlLogo, text: "HTML" },

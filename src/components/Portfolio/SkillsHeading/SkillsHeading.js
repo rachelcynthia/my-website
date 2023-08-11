@@ -3,7 +3,7 @@ import { SkillsHeaddingContainer, SkillsHeadingImage } from './SkillsHeading.sty
 import SkillsHeadingImg from '../.../../../../assets/skills-heading.png'
 
 const SkillsHeading = () => {
-    const { innerWidth: width, innerHeight: height } = window;
+    const { innerHeight: height } = window;
 
     return (
         <SkillsHeaddingContainer imgHeight={0.1 * height}>

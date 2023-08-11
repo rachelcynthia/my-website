@@ -42,7 +42,7 @@ const Blogs = () => {
                     {blogs.map((item) => (
                         <ImageListItem key={item.img} style={{borderColor: "black", borderWidth: 10}}>
                             <img
-                            src={item.img} />
+                            src={item.img} alt=""/>
                             <ImageListItemBar
                                 title={item.name}
                                 actionIcon={

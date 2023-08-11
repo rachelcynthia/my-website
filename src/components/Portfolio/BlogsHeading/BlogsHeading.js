@@ -3,7 +3,7 @@ import { BlogsHeaddingContainer, BlogsHeadingImage, BlogsHeadingWrapper } from '
 import BlogsHeadingImg from '../../../assets/blogs-heading.png'
 
 const BlogsHeading = () => {
-    const { innerWidth: width, innerHeight: height } = window;
+    const { innerWidth: width } = window;
     return (
         <BlogsHeadingWrapper>
             <BlogsHeaddingContainer imgWidth={0.15 * width}>

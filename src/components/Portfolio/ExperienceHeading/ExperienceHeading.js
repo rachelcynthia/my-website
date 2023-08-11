@@ -3,7 +3,7 @@ import { ExperienceHeaddingContainer, ExperienceHeadingImage, ExperienceHeadingW
 import ExperienceHeadingImg from '../.../../../../assets/experience-heading.png';
 
 const ExperienceHeading = () => {
-    const { innerWidth: width, innerHeight: height } = window;
+    const { innerWidth: width } = window;
 
     return (
         <ExperienceHeadingWrapper width={width}>

@@ -10,16 +10,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 const Contact = () => {
-    // const contactInfo = [
-    //     { icon: phone, desc: '+91 98402 36343' },
-    //     { icon: email, desc: 'rachel883omega@gmail.com' },
-    //     { icon: location, desc: 'Chennai, Tamil Nadu - 600125' }
-    // ]
-    // const contactButtons = [
-    //     { icon: envelope, link: '' },
-    //     { icon: linkedIn, link: 'www.linkedin.com/in/rachel-cynthia' }
-    // ]
-
     const contactInfo = [
         { icon: faPhone, desc: '+91 98402 36343' },
         { icon: faEnvelope, desc: 'rachel883omega@gmail.com' },
@@ -36,7 +26,7 @@ const Contact = () => {
         window.open(link)
     }
     return (
-        <ContactWrapper id='#contact'>
+        <ContactWrapper id='contact'>
             <ContactContainer>
                 <hr/>
                 <ContactContent>
@@ -53,7 +43,7 @@ const Contact = () => {
                         {contactButtons.map((button) => {
                             return (
                                 <ButtonWrapper onClick={() => onCLickContact(button.link)}>
-                                    <img src={button.icon} width={25} height={25}/>
+                                    <img src={button.icon} width={25} height={25} alt=""/>
                                 </ButtonWrapper>
                             );
                         })}
