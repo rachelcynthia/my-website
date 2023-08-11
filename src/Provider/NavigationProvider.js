@@ -1,14 +1,16 @@
 import { useState } from "react";
-
+import Resume from '../assets/Resume-2023.pdf';
 import NavigationContext from "./NavigationContext";
 
 const NavigationProvider = ({ children }) => {
     const [clicked, setClicked] = useState('');
 
     const onClickNavBar = (clickedEle) => {
-        console.log("clicked !!!", clickedEle);
         setClicked('');
         setClicked(clickedEle);
+        if(clickedEle.toLowerCase() == 'resume'){
+            window.open(Resume)
+        }
     }
 
     return (

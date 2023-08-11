@@ -14,4 +14,5 @@ export const SocialLinksEleContainer = styled.div`
     background-color:#F6F197;
     border: 1px solid black;
     border-radius: 25%;
+    cursor: pointer;
 `;

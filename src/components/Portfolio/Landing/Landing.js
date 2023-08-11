@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Home, Container } from './Landing.style';
 import ImageWithBorder from "../ImageWithBorder/ImageWithBorder";
 import NameText from "../NameText/NameText";
+import ScrollTextDown from "../ScrollTextDown/ScrollTextDown";
 
 const Landing = () => {
     const { innerWidth: width, innerHeight: height } = window;
@@ -13,6 +14,7 @@ const Landing = () => {
                 <NameText />
                 <ImageWithBorder />
             </Container>
+            <ScrollTextDown />
         </Home>
 
     );

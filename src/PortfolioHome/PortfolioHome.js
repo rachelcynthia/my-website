@@ -6,6 +6,7 @@ import Education from "../components/Portfolio/Education/Education";
 import Experience from "../components/Portfolio/Experience/Experience";
 import Skills from "../components/Portfolio/Skills/Skills";
 import Blogs from "../components/Portfolio/Blogs/Blogs";
+import Contact from "../components/Portfolio/Contact/Contact";
 
 const PortfolioHome = () => {
     return (
@@ -17,6 +18,7 @@ const PortfolioHome = () => {
             <Experience />
             <Education />
             <Blogs />
+            <Contact />
         </>
     );
 }

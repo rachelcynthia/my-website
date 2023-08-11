@@ -17,5 +17,8 @@ export const ScrollIcon = styled.img`
 
 export const ScrollTextEle = styled.div`
     font: caption;
-    font-size: 18px;
+    font-size: 22px;
+    font-family: 'Handjet', cursive;
+    color: black;
+    &:hover
 `;

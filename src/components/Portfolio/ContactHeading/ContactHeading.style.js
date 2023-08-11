@@ -1,16 +1,16 @@
 import styled from "styled-components";
 
-export const EducationHeaddingContainer = styled.div`
+export const ContactHeaddingContainer = styled.div`
     width: ${props => props.imgWidth}px;
 `;
 
-export const EducationHeadingWrapper = styled.div`
+export const ContactHeadingWrapper = styled.div`
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    margin-bottom: 30px;
 `;
 
-export const EducationHeadingImage = styled.img`
+export const ContactHeadingImage = styled.img`
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;

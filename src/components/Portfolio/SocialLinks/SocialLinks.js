@@ -12,11 +12,15 @@ const SocialLinks = () => {
         { icon: linkedin, link: 'https://www.linkedin.com/in/rachel-cynthia/' }
     ]
 
+    const onSocialLinkClick = (link) => {
+        window.open(link);
+    } 
+
     return (
         <SocialLinksContainer paddingTop={0.02 * height} >
             {links.map((link) => {
                 return (
-                    <SocialLinksEleContainer>
+                    <SocialLinksEleContainer onClick={() => onSocialLinkClick(link.link)}>
                         <SocialLinksEle src={link.icon} height={0.045 * height} />
                     </SocialLinksEleContainer>
                 );

@@ -7,7 +7,7 @@ const HeadingBar = () => {
     const { onClickNavBar } = useContext(NavigationContext);
 
 
-    const listItems = ['Home', 'About', 'Skills', 'Experience', 'Education', 'Blogs', 'Resume']
+    const listItems = ['Home', 'About', 'Skills', 'Experience', 'Education', 'Blogs', 'Contact', 'Resume']
     return (
         <HeadingWrapper>
             <Heading width={width}>

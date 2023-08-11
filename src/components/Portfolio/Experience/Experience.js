@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { ExperienceContainer, ExperienceContent, } from './Experience.style';
+import { ExperienceContainer, ExperienceContent, CompanyName} from './Experience.style';
 import { faSuitcase } from '@fortawesome/free-solid-svg-icons'
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
@@ -56,9 +56,9 @@ const Experience = () => {
                                     <TimelineConnector />
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
-                                    <Typography variant="h6" component="span">
+                                    <CompanyName>
                                         {exp.name}
-                                    </Typography>
+                                    </CompanyName>
                                     <Typography>{exp.role}</Typography>
                                 </TimelineContent>
                             </TimelineItem>

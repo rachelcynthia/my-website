@@ -14,3 +14,11 @@ export const ExperienceContent = styled.div`
     padding: 0 5%;
     vertical-align: middle;
 `;
+
+export const CompanyName = styled.div`
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'REM', sans-serif;
+    font-size: 20px;
+`;
