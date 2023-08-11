@@ -37,4 +37,5 @@ export const HeadingWrapper = styled.div`
     position: sticky;
     top:0;
     opacity: 0.7;
+    z-index: 2;
 `;

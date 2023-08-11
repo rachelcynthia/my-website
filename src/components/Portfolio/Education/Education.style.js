@@ -13,7 +13,7 @@ export const EducationContent = styled.div`
     width: 50%;
     height: 100%;
     margin-left: 20%;
-    padding: 3% 5%;
+    padding: 3% 5% 0 5%;
     vertical-align: middle;
 `;
 

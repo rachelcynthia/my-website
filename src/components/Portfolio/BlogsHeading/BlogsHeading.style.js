@@ -7,6 +7,7 @@ export const BlogsHeaddingContainer = styled.div`
 export const BlogsHeadingWrapper = styled.div`
     display: flex;
     justify-content: center;
+    padding-top: 50px;
 `;
 
 export const BlogsHeadingImage = styled.img`
