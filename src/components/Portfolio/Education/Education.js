@@ -2,6 +2,7 @@ import React from "react";
 import { EducationContainer, EducationContent, Image, EducationHeading, EducationSubHeading, PaperContent, EducationTextContainer } from './Education.style';
 import school from '../../../assets/school.jpeg';
 import college from '../../../assets/college.jpg';
+import uom from '../../../assets/uom.jpg';
 import { default as EducationHeadingText } from '../../Portfolio/EducationHeading/EducationHeading.js';
 
 const Education = () => {
@@ -10,6 +11,17 @@ const Education = () => {
         <EducationContainer id="education">
             <EducationHeadingText />
             <EducationContent id="educationContent" >
+                 <PaperContent elevation={3}>
+                    <Image src={uom} />
+                    <EducationTextContainer>
+                        <EducationHeading>
+                            The University of Manchester, Manchester - <i><div style={{fontWeight: 100}}>Masters in Advanced Computer Science</div></i>
+                        </EducationHeading>
+                        <EducationSubHeading>
+                            SEPTEMBER 2024 - SEPTEMBER 2025
+                        </EducationSubHeading>
+                    </EducationTextContainer>
+                </PaperContent>
                 <PaperContent elevation={3}>
                     <Image src={college} />
                     <EducationTextContainer>

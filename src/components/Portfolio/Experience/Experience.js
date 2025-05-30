@@ -15,9 +15,14 @@ import ExperienceHeading from "../ExperienceHeading/ExperienceHeading";
 const Experience = () => {
     const Timelines = [
         {
+            name: 'The University of Manchester, UK',
+            role: 'Digital Skills Lead - Part-time',
+            time: 'DEC 2024 - PRESENT'
+        },
+        {
             name: 'Thoughtworks, India',
             role: 'Application Developer',
-            time: 'DEC 2021 - PRESENT'
+            time: 'DEC 2021 - AUG 2024'
         },
         {
             name: 'Thoughtworks, India',

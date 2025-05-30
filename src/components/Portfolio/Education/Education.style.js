@@ -18,7 +18,7 @@ export const EducationContent = styled.div`
 `;
 
 export const Image = styled.img`
-    max-width: 400px;
+    width: 300px;
     object-fit: contain;
 `;
 

@@ -11,9 +11,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Contact = () => {
     const contactInfo = [
+        { icon: faPhone, desc: '+44 77410 32110' },
         { icon: faPhone, desc: '+91 98402 36343' },
         { icon: faEnvelope, desc: 'rachel883omega@gmail.com' },
-        { icon: faMapLocationDot, desc: 'Chennai, Tamil Nadu - 600125' }
+        { icon: faMapLocationDot, desc: 'Manchester, UK' }
     ]
     const contactButtons = [
         { icon: envelope, link: 'mailto:rachel883omega@gmail.com' },

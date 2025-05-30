@@ -15,6 +15,6 @@ export const IntroText = styled.div`
     font-weight: 300;
 `;
 
-export const IntroTextContainer = styled.li`
+export const IntroTextContainer = styled.div`
     margin-bottom: 30px;
 `;
