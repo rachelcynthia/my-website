@@ -18,7 +18,7 @@ const AboutText = () => {
                         <p>
                             By day, I'm diving into machine learning models and cryptographic protocols.
                             I also work part time with the <strong> University Library's Digital Skills Team</strong>,
-                            where I get to <em>design content for student workshops, edit videos, plan events, and build web resources</em>
+                            where I get to <em>design content for student workshops, edit videos, plan events, and build web resources </em>
                             that make digital literacy a little more fun and a lot more accessible.
                         </p>
 
