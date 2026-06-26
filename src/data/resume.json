@@ -1,0 +1,65 @@
+{
+  "name": "Rachel Cynthia",
+  "location": "B1 1FU, Birmingham, UK",
+  "email": "rachel883omega@gmail.com",
+  "phone": "77410 32110",
+  "links": [
+    { "label": "LinkedIn", "url": "https://linkedin.com/in/rachel-cynthia" },
+    { "label": "GitHub", "url": "https://github.com/rachelcynthia" },
+    { "label": "Medium", "url": "https://medium.com/@rachel883omega" }
+  ],
+  "headline": "Software developer building scalable applications with Java, Golang, React, and React Native.",
+  "summary": "I’m a software developer with more than 3 years of experience building scalable applications. I follow TDD principles to write clean, maintainable code, and have worked extensively on microservices, containerization, and CI/CD in Agile teams.",
+  "skills": ["Java", "Golang", "React", "React Native", "TDD", "Microservices", "Docker", "Kubernetes", "AWS", "CI/CD", "Python", "MongoDB"],
+  "experience": [
+    {
+      "role": "Application Engineer",
+      "company": "Goldman Sachs",
+      "location": "United Kingdom",
+      "dateRange": "Nov 2025 – Present",
+      "technologies": ["Java", "Spring", "React", "Python", "AWS", "Agentic AI", "MongoDB", "DB2"],
+      "highlights": [
+        "Designed and developed full-stack applications, leading architectural decisions to support scalable, maintainable systems.",
+        "Engineered a Roaring Bitmap index with caching for millions-of-record scale, improving processing efficiency by 30%.",
+        "Built an agentic AI meeting tracker that unified data from internal platforms and reduced manual tracking overhead.",
+        "Contributed to AWS cloud migration initiatives, streamlining pipelines and reducing deployment errors.",
+        "Configured MongoDB data pipelines using aggregation and views to improve data availability for dashboards."
+      ]
+    },
+    {
+      "role": "Application Developer",
+      "company": "Thoughtworks",
+      "location": "India",
+      "dateRange": "Dec 2021 – Aug 2024",
+      "technologies": ["Java", "Spring", "Golang", "ReactJs", "React Native"],
+      "highlights": [
+        "Introduced pre-login APIs that brought in 50,000 new customers.",
+        "Implemented containerised microservices with Docker and Kubernetes and set up GoCD CI/CD pipelines.",
+        "Used Agile and XP practices, TDD, pair programming, and continuous integration to deliver maintainable code.",
+        "Architected loan journey automation that increased profits by 40%.",
+        "Improved image rendering performance, reducing load time by 3000ms (30% faster)."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Sc Advanced Computer Science (AI Specialisation)",
+      "institution": "The University of Manchester",
+      "dateRange": "Sept 2024 – Sep 2025"
+    },
+    {
+      "degree": "B.E Computer Science",
+      "institution": "St. Joseph’s Institute of Technology",
+      "dateRange": "Jun 2017 – May 2021"
+    }
+  ],
+  "awards": [
+    "Bicentenary Global Futures Scholarship for the top 100 students from 20 countries based on merit.",
+    "Outstanding Solution Finder in an Ideathon conducted by ATAL for over 500 students.",
+    "Microsoft Certified: Azure Fundamentals (AZ-900), 2025."
+  ],
+  "community": [
+    "Regular environmental volunteering at local parks and community gardens to support urban sustainability.",
+    "Crocheting handmade items for charity donations to support local organisations."
+  ]
+}
